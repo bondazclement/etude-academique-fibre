@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+data/raw_data/*/*
+!data/raw_data/**/.gitkeep
+data/processed_parquet/*/*
+!data/processed_parquet/**/.gitkeep
+data/outputs_excel/*
+!data/outputs_excel/.gitkeep
+*.duckdb*
+.DS_Store
